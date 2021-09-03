@@ -58,7 +58,18 @@
     min-width: 480px;   
 }
 .aimg {
+    /* flex: 1; */
     object-fit: fill;
+    /* min-width: 50px; */
+    width: 100%;
+}
+.aimg4 {
+    flex: 1;
+    object-fit: fill;
+    /* min-width: 50px; */
+    width: 100%;
+    padding-top: 3%;
+    /* max-height: 200px; */
 }
 .bcolor2{
     background-color: rgb(245, 179, 47);
@@ -75,7 +86,16 @@
 }
 .aimg2{
     flex: 1;
-    justify-content: center;
+    /* max-height: 50px; */
+}
+.aimg3 {
+    flex: 1;
+    padding: 1%;
+    object-fit: fill;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    max-height: 200px;
 }
 .main{
     height: 150px;
@@ -124,17 +144,35 @@
     text-align: center;
     border-color: black;
     border-style: dotted;
-    min-width: 100px;
-    height: 30px;
+    min-width: 200px;
+    height: 50px;
     padding-top: 3px;
 }
 .pad1 {
     padding: 5%;
+}
+.pad2 {
+    padding: 1%;
+    padding-left: 5%;
 }
 .tleft {
     position: absolute;
     left: 5%;
 }
 .cent {
-    align-items: center;
+    flex: 1;
+    max-height: 100px;
+    object-fit: fill;
+    padding-left: 10px;
+}
+.tsize1 {
+    font-size: 30px;
+}
+.pad3 {
+    margin-left: -10%;
+}
+.bimg {
+    margin:-15%;
+    height: 200px;
+    /* background-image: url("https://i.gifer.com/4ZOQ.gif"); */
 }

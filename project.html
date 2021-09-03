@@ -15,11 +15,9 @@
             document.getElementById(strIframeID).style.display = "block";
         }
         function hideAllIFrames(){
-            // for(var i=0; i<iFrameArray.length; i++){
-            //     document.getElementById(iFrameArray[i]).style.display = "none";
-            // }
-            document.getElementById("iframe1").style.display = "none";
-            document.getElementById("iframe2").style.display = "none";
+            for(var i=0; i<iFrameArray.length; i++){
+                document.getElementById(iFrameArray[i]).style.display = "none";
+            }
         }
     </SCRIPT>
 </head>
@@ -46,29 +44,41 @@
         <!--Top Div end-->
     </div>
     <br>
-    <div>
+    <div class="pad1 tsize1">
         <!--will contain text talking about my project and path to learning how to code in python -->
         <p>
-            At the start of the course i have had some knowledge in coding and how importance syntax can impact code functionality and readability,as we 
+            At the start of the course I have had some knowledge in coding and how importance syntax can impact code functionality and readability,as we started I expanded upon a task in my free time to make a working o's and x's game and implemented it into the team based project we ran out of time to fully implement the full scale of the project having to drop some of the bad out come storylines, I worked on the Lab, good path bar and the factory areas.
         </p>
     </div>
     <br>
     <div>
-        <div class="container3">
+        <div class="container3 tsize1">
             <div class="curser over butt bcolor5" onClick="showhideiframe('iframe1')">Group Game</div>
             <div class="curser over butt bcolor5" onClick="showhideiframe('iframe2')">Is it Prime</div>
             <div class="curser over butt bcolor5" onClick="showhideiframe('iframe3')">O's and X's</div>
         </div>
         <br>
         <div>
-            <!-- will contain my python project and other code -->
-            <!-- <button onClick="showhideiframe('iframe1')">iframe1 </button> <button onClick="showhideiframe('iframe2')">iframe2 </button> -->
-            <iframe id="iframe1" src="https://trinket.io/embed/python3/7e706d8236?runOption=run&start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen style="display:block"></iframe>
-            <iframe id="iframe2" src="https://trinket.io/embed/python3/2a96996dbf?runOption=run&start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen style="display:none"></iframe>
+            <div class="aimg2">
+                <img class="cent" src="https://www.pinclipart.com/picdir/big/539-5391503_python-programming-language-computer-programming-computer-transparent-background.png" alt="Python coding logo">
+            </div>
+            <div id="iframe1" style="display:block">
+                <p class="pad2 tsize1">This is the game that was made for our team projects.
+                </p>
+                <iframe src="https://trinket.io/embed/python3/7e706d8236?runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen ></iframe>
+            </div>
+            <div id="iframe2" style="display:none">
+                <p class="pad2 tsize1">This is code that I made for an extra challenge to check if a number is prime.
+                </p>
+                <iframe src="https://trinket.io/embed/python3/2a96996dbf?runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+            </div>
+            <div id="iframe3" style="display:none">
+                <p class="pad2 tsize1">This is a 2 player game of O's and X's that I coded in my free time during the course I modified to code to be used in the group project to have an Ai player.
+                </p>
+                <iframe src="https://trinket.io/embed/python3/d8105ea0e0?start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="aimg2">
-            <img class="cent bcolor2" src="https://www.pinclipart.com/picdir/big/539-5391503_python-programming-language-computer-programming-computer-transparent-background.png">
-        </div>
+        
     </div>
 </body>
 </html>
