@@ -1,0 +1,140 @@
+/* comment */
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    font-family: 'STIX Two Math', serif;
+    margin: 0%;
+}
+.topdiv  {
+    /* class */
+    font-size: 250% ;
+    padding: 0%;
+    text-align: center;
+    margin: 0%;
+}
+.box {
+    width: 50%;
+    padding: 0%;
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 1;
+}
+.left {
+    display:flex;
+    line-height: 0px;
+}
+.right {
+    align-items: flex-start;
+}
+.container1 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin: 0%;
+    padding:0%;
+    justify-content: flex-start;
+}
+.container2 {
+    display:flex;
+    flex-direction: column;
+    padding:0%;
+    margin: 0%;
+}
+.container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.bcolor1 {
+    background-color: rgb(46, 0, 252);
+}
+.box1 {
+    flex:1;
+    padding: 0%;
+    min-width: 480px;   
+}
+.aimg {
+    object-fit: fill;
+}
+.bcolor2{
+    background-color: rgb(245, 179, 47);
+}
+.box2 {
+    width: 100px;
+    padding: 0%;
+}
+.container4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.aimg2{
+    flex: 1;
+    justify-content: center;
+}
+.main{
+    height: 150px;
+    position: relative;
+}
+.bottom{
+    position: absolute;
+    bottom: 30%;
+    left: 1%;
+    font-size: 75px;
+}
+.boxb{
+    /* display: flex; */
+    border: 1%;
+    border-color: black;
+    border-style: dotted;
+    min-width: 250px;
+    flex:1;
+    padding: 0%;
+    max-height: 200px;
+}
+.mid{
+    text-align: center;
+    vertical-align: center;
+}
+.curser{
+    cursor: pointer;
+}
+.over:hover{
+    background-color: rgb(245, 179, 47);
+}
+.tcolor1{
+    color:rgb(0, 0, 0);
+}
+.bcolor3{
+    background-color:rgb(6, 205, 255);
+}
+.bcolor4{
+    background-color: beige;
+}
+.bcolor5{
+    background-color: white;
+}
+.butt {
+    flex: 1;
+    text-align: center;
+    border-color: black;
+    border-style: dotted;
+    min-width: 100px;
+    height: 30px;
+    padding-top: 3px;
+}
+.pad1 {
+    padding: 5%;
+}
+.tleft {
+    position: absolute;
+    left: 5%;
+}
+.cent {
+    align-items: center;
+}
